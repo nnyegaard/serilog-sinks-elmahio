@@ -1,0 +1,23 @@
+{
+    "version": "0.0.1",
+    "description": "Test project for the Serilog sink for ElmahIO",
+    "authors": [ "Nicklas Nyegaard" ],
+    "tags": [ "serilog, elmah" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+    "tooling": {
+      "defaultNamespace": "Serilog.Sinks.ElmahIO.Test"
+    },
+  "dependencies": {
+    "Serilog.Sinks.ElmahIO": "0.0.1",
+    "xunit": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-rc1-build204"
+  },
+    "commands": {
+        "test": "xunit.runner.dnx"
+    },
+    "frameworks": {
+        "dnx46": { },
+        "dnxcore50": { }
+    }
+}
